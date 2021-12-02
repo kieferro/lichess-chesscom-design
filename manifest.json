@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Lichess with chess.com-design",
+  "version": "0.1",
+  "description": "This extension will add the custom chess.com-design to all your lichess tabs.",
+  "icons": {
+    "48": "ressources/icon-48.jpg",
+    "96": "ressources/icon-96.jpg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "*://*.lichess.org/*" ],
+      "js": [ "main.js" ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "ressources/lichess-icon.jpg",
+    "default_title": "Lichess with chess.com-design",
+    "default_popup": "popup.html"
+  }
+}
