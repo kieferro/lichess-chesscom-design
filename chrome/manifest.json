@@ -5,8 +5,8 @@
   "version": "0.1",
   "description": "This extension will add the custom chess.com-design to all your lichess tabs.",
   "icons": {
-    "48": "ressources/icon-48.jpg",
-    "96": "ressources/icon-96.jpg"
+    "48": "ressources/icons/icon-48.jpg",
+    "96": "ressources/icons/icon-96.jpg"
   },
 
   "content_scripts": [
@@ -16,7 +16,7 @@
     }
   ],
   "browser_action": {
-    "default_icon": "ressources/lichess-icon.jpg",
+    "default_icon": "ressources/icons/lichess-icon.jpg",
     "default_title": "Lichess with chess.com-design",
     "default_popup": "popup.html"
   }
